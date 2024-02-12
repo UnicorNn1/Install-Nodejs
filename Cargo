@@ -1,8 +1,6 @@
-Install Cargo
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 
-1-curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
-
-2-source $HOME/.cargo/env
+source $HOME/.cargo/env
 
 
 

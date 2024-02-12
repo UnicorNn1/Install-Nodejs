@@ -40,6 +40,48 @@ You can also install a specific version of Node.js using a version manager like 
   ```bash
   node -v
   ```
+## Install Nodejs
+```bash
+sudo apt install -y nodejs
+```
+```bash
+sudo apt install -y npm
+```
+```bash
+curl -sL https://deb.nodesource.com/setup_20.x | sudo -E bash -
+sudo apt-get install -y nodejs
+```
+```bash
+sudo npm install -g npm@latest
+```
+## or
+```bash
+wget -qO- https://raw.githubusercontent.com/creationix/nvm/v0.39.0/install.sh | bash
+source ~/.profile
+```
+```bash
+nvm ls-remote
+```
+```bash
+nvm install 16.17.0
+```
+## with different command
+```bash
+curl -Ls https://deb.nodesource.com/setup_16.x | sudo bash
+```
+```bash
+curl -Ls https://dl.yarnpkg.com/debian/pubkey.gpg | gpg --dearmor | sudo tee /usr/share/keyrings/yarnkey.gpg >/dev/null
+echo "deb [signed-by=/usr/share/keyrings/yarnkey.gpg] https://dl.yarnpkg.com/debian stable main" | sudo tee /etc/apt/sources.list.d/yarn.list
+```
+```bash
+sudo apt -q update
+sudo apt -qy install curl git jq lz4 build-essential nodejs=16.* yarn
+sudo apt -qy upgrade
+```
+
+
+
+
 
 
 

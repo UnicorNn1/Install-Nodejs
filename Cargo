@@ -1,6 +1,17 @@
+Here is the code to install Rust and Cargo using rustup on Unix systems:
+
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 
 source $HOME/.cargo/env
+
+Or
+
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+
+To verify that the installation was successful, you can run the following commands:
+
+rustc --version
+cargo --version
 
 
 

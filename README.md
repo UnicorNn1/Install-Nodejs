@@ -78,3 +78,9 @@ sudo apt -q update
 sudo apt -qy install curl git jq lz4 build-essential nodejs=16.* yarn
 sudo apt -qy upgrade
 ```
+## Node.js delete command
+```bash
+sudo apt remove nodejs
+sudo apt purge nodejs
+```
+
